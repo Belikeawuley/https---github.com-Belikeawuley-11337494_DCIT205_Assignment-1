@@ -1,5 +1,6 @@
 
-
+import user_icon from '../assets/person-fill.svg'
+import password_icon from '../assets/lock-fill.svg'
 const Login = () => {
 
     const [action,setAction] = useState("Login");
@@ -12,11 +13,11 @@ const Login = () => {
       </div>
       <div className="inputs">
         <div className="input">
-            <img src="" alt="" />
+            <img src={user_icon} alt="" />
             <input type="ID Number" placeholder='ID' />
         </div>
         <div className="input">
-            <img src="" alt="" />
+            <img src={password_icon} alt="" />
             <input type="Password" placeholder='PIN' />
         </div>
       </div>

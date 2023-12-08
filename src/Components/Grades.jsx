@@ -14,8 +14,8 @@ const Grades = () => {
       <h2 className="text-center">FIRST <span className="/">SEMSTER</span></h2>
       <h4 className="align-left">ACADEMIC YEAR: <span className="/">2022/2023</span></h4>
       <h4 className="align-right">CCT: <span className="/">18</span></h4>
-      <h4 className="align-left">CCP: <span className="/">12</span></h4>
-      <h4 className="align-left">CGPA <span className="/">2.65</span></h4>
+      <h4 className="align-right">CCP: <span className="/">12</span></h4>
+      <h4 className="align-right">CGPA <span className="/">2.65</span></h4>
       <table className="table">
   <thead>
     <tr>
@@ -36,38 +36,38 @@ const Grades = () => {
     </tr>
     <tr>
       <th scope="row">DCIT103</th>
-      <td></td>
-      <td>Thornton</td>
-      <td>@fat</td>
-      <td>Mark</td>
+      <td>OFFICE PRODUCTIVITY TOOLS</td>
+      <td>3</td>
+      <td>A</td>
+      <td>1</td>
     </tr>
     <tr>
       <th scope="row">DCIT105</th>
-      <td></td>
-      <td>@twitter</td>
-      <td>Mark</td>
-      <td>Mark</td>
+      <td>MATHEMATICS FOR IT PROFESSIONALS</td>
+      <td>3</td>
+      <td>C+</td>
+      <td>2.5</td>
     </tr>
     <tr>
       <th scope="row">ECON101</th>
-      <td>Larry the Bird</td>
-      <td>@twitter</td>
-      <td>Mark</td>
-      <td>Mark</td>
+      <td>INTRODUCTION TO ECONOMICS I</td>
+      <td>3</td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <th scope="row">STAT111</th>
-      <td>Larry the Bird</td>
-      <td>@twitter</td>
-      <td>Mark</td>
-      <td>Mark</td>
+      <td>INTRODUCTION TO STATISTICS AND PROBABILITY I</td>
+      <td>3</td>
+      <td>C</td>
+      <td>1</td>
     </tr>
     <tr>
       <th scope="row">UGRC150</th>
-      <td>Larry the Bird</td>
-      <td>@twitter</td>
-      <td>Mark</td>
-      <td>Mark</td>
+      <td>CRITICAL THINKING AND PRACTICAL REASONING</td>
+      <td>3</td>
+      <td>A</td>
+      <td>4.0</td>
     </tr>
   </tbody>
   <table className="table table-bordered">
@@ -77,8 +77,8 @@ const Grades = () => {
     <h2 className="text-center">SECOND <span className="/">SEMSTER</span></h2>
     <h4 className="align-left">ACADEMIC YEAR: <span className="/">2022/2023</span></h4>
     <h4 className="align-right">CCT: <span className="/">18</span></h4>
-    <h4 className="align-left">CCP: <span className="/">12</span></h4>
-    <h4 className="align-left">CGPA <span className="/">2.65</span></h4>
+    <h4 className="align-right">CCP: <span className="/">12</span></h4>
+    <h4 className="align-tight">CGPA <span className="/">2.65</span></h4>
     <table className="table">
  <thead>
    <tr>
@@ -91,46 +91,46 @@ const Grades = () => {
  </thead>
  <tbody>
    <tr>
-     <th scope="row">DCIT 101</th>
-     <td>Introduction To Computer Science</td>
+     <th scope="row">DCIT 102</th>
+     <td>COMPUTER HARDWARE FUNDAMENTALS AND CIRCUITS</td>
      <td>3</td>
-     <td>B</td>
-     <td>3.4</td>
+     <td>A</td>
+     <td>4.0</td>
    </tr>
    <tr>
-     <th scope="row">DCIT103</th>
-     <td></td>
-     <td>Thornton</td>
-     <td>@fat</td>
-     <td>Mark</td>
+     <th scope="row">DCIT104</th>
+     <td>PROGRAMMING FUNDAMENTALS</td>
+     <td>3</td>
+     <td>A</td>
+     <td>4.0</td>
    </tr>
    <tr>
-     <th scope="row">DCIT105</th>
-     <td></td>
-     <td>@twitter</td>
-     <td>Mark</td>
-     <td>Mark</td>
+     <th scope="row">ECON102</th>
+     <td>INTRODUCTION TO ECONOMICS II</td>
+     <td>3</td>
+     <td>N/A</td>
+     <td>N/A</td>
    </tr>
    <tr>
-     <th scope="row">ECON101</th>
-     <td>Larry the Bird</td>
-     <td>@twitter</td>
-     <td>Mark</td>
-     <td>Mark</td>
+     <th scope="row">MATH122</th>
+     <td>CALCULUS I</td>
+     <td>3</td>
+     <td>N/A</td>
+     <td>N/A</td>
    </tr>
    <tr>
-     <th scope="row">STAT111</th>
-     <td>Larry the Bird</td>
-     <td>@twitter</td>
-     <td>Mark</td>
-     <td>Mark</td>
+     <th scope="row">STAT112</th>
+     <td>INTRODUCTION TO STATISTICS AND PROBABILITY II</td>
+     <td>3</td>
+     <td>C+</td>
+     <td>2.15</td>
    </tr>
    <tr>
-     <th scope="row">UGRC150</th>
-     <td>Larry the Bird</td>
-     <td>@twitter</td>
-     <td>Mark</td>
-     <td>Mark</td>
+     <th scope="row">UGRC110</th>
+     <td>ACADEMIC WRITING I</td>
+     <td>3</td>
+     <td>N/A</td>
+     <td>N/A</td>
    </tr>
  </tbody>
  <table className="table table-bordered">
@@ -143,8 +143,8 @@ const Grades = () => {
     <h2 className="text-center">FIRST <span className="/">SEMSTER</span></h2>
     <h4 className="align-left">ACADEMIC YEAR: <span className="/">2022/2023</span></h4>
     <h4 className="align-right">CCT: <span className="/">18</span></h4>
-    <h4 className="align-left">CCP: <span className="/">12</span></h4>
-    <h4 className="align-left">CGPA <span className="/">2.65</span></h4>
+    <h4 className="align-right">CCP: <span className="/">12</span></h4>
+    <h4 className="align-right">CGPA <span className="/">2.65</span></h4>
     <table className="table">
  <thead>
    <tr>
@@ -157,46 +157,46 @@ const Grades = () => {
  </thead>
  <tbody>
    <tr>
-     <th scope="row">DCIT 101</th>
-     <td>Introduction To Computer Science</td>
+     <th scope="row">CBAS210</th>
+     <td>ACADEMIC WRITING II</td>
      <td>3</td>
-     <td>B</td>
-     <td>3.4</td>
+     <td>N/A</td>
+     <td>N/A</td>
    </tr>
    <tr>
-     <th scope="row">DCIT103</th>
-     <td></td>
-     <td>Thornton</td>
-     <td>@fat</td>
-     <td>Mark</td>
+     <th scope="row">DCIT201</th>
+     <td>PROGRAMMING I</td>
+     <td>2</td>
+     <td>N/A</td>
+     <td>N/A</td>
    </tr>
    <tr>
-     <th scope="row">DCIT105</th>
-     <td></td>
-     <td>@twitter</td>
-     <td>Mark</td>
-     <td>Mark</td>
+     <th scope="row">DCIT203</th>
+     <td>DIGITAL AND LOGIC SYSTEMS DESIGN</td>
+     <td>3</td>
+     <td>N/A</td>
+     <td>N/A</td>
    </tr>
    <tr>
-     <th scope="row">ECON101</th>
-     <td>Larry the Bird</td>
-     <td>@twitter</td>
-     <td>Mark</td>
-     <td>Mark</td>
+     <th scope="row">DCIT205</th>
+     <td>MULTI MEDIA AND WEB DESIGN</td>
+     <td>3</td>
+     <td>N/A</td>
+     <td>N/A</td>
    </tr>
    <tr>
-     <th scope="row">STAT111</th>
-     <td>Larry the Bird</td>
-     <td>@twitter</td>
-     <td>Mark</td>
-     <td>Mark</td>
+     <th scope="row">DCIT207</th>
+     <td>COMPUTER ORGANIZATION & ARCHITECTURE</td>
+     <td>3</td>
+     <td>N/A</td>
+     <td>N/A</td>
    </tr>
    <tr>
-     <th scope="row">UGRC150</th>
-     <td>Larry the Bird</td>
-     <td>@twitter</td>
-     <td>Mark</td>
-     <td>Mark</td>
+     <th scope="row">DCIT209</th>
+     <td>E-BUSINESS ARCHITECTURES</td>
+     <td>3</td>
+     <td>N/A</td>
+     <td>N/A</td>
    </tr>
  </tbody>
  <table className="table table-bordered">
