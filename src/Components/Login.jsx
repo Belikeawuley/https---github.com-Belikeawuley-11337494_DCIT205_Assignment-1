@@ -4,7 +4,7 @@ import password_icon from '../assets/lock-fill.svg'
 const Login = () => {
 
     const [action,setAction] = useState("Login");
-    <i class="bi bi-person-fill"></i>
+    <i className="bi bi-person-fill"></i>
   return (
     <div className='container'>
       <div className="header">
