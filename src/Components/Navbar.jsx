@@ -1,6 +1,6 @@
 
 
-const Navbar = () => {
+const Navbar = ({setcategory}) => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
@@ -10,20 +10,27 @@ const Navbar = () => {
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+      
+      <li class="nav-item">
+          <a class="nav-link" onClick={()=>setcategory("login")}>Login</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Grades</a>
+        <li class="nav-item">
+          <a class="nav-link"onClick={()=>setcategory("dashboard")}>Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"onClick={()=>setcategory("grades")}>Grades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"onClick={()=>setcategory("alert")}>Alert</a>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             More
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Missing Grade Form</a></li>
-            <li><a className="dropdown-item" href="#">Contact •	Instructor</a></li>
-            <li><a className="dropdown-item" href="#">Help and Support</a></li>
+            <li><a className="dropdown-item"onClick={()=>setcategory("missinggradeform")}>MissingGradeForm</a></li>
+            <li><a className="dropdown-item"onClick={()=>setcategory("instructorcontact")}>InstructorContact</a></li>
+            <li><a className="dropdown-item"onClick={()=>setcategory("helpandsupport")}>HelpandSupport</a></li>
           </ul>
         </li>
         <li className="nav-item">

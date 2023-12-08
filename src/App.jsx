@@ -9,17 +9,11 @@ import MissingGradeForm from "./Components/MissingGradeForm"
 import Navbar from "./Components/Navbar"
 
 const App = () => {
+  const [category,setcategory] = useState("general");
   return (
     <div>
-      <Navbar/>
-      <Dashboard/>
-      <Login/>
-      <Landing/>
-      <MissingGradeForm/>
-      <InstructorContact/>
-      <HelpandSupport/>
-      <Grades/>
-      <Alert/>
+      <Navbar setcatedgory={setcategory}/>
+      <Landing category={category}/>
   </div>
   )
 }

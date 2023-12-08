@@ -39,7 +39,7 @@ const Grades = () => {
       <td>OFFICE PRODUCTIVITY TOOLS</td>
       <td>3</td>
       <td>A</td>
-      <td>1</td>
+      <td>4.0</td>
     </tr>
     <tr>
       <th scope="row">DCIT105</th>
@@ -60,7 +60,7 @@ const Grades = () => {
       <td>INTRODUCTION TO STATISTICS AND PROBABILITY I</td>
       <td>3</td>
       <td>C</td>
-      <td>1</td>
+      <td>2.3</td>
     </tr>
     <tr>
       <th scope="row">UGRC150</th>
@@ -123,7 +123,7 @@ const Grades = () => {
      <td>INTRODUCTION TO STATISTICS AND PROBABILITY II</td>
      <td>3</td>
      <td>C+</td>
-     <td>2.15</td>
+     <td>2.6</td>
    </tr>
    <tr>
      <th scope="row">UGRC110</th>

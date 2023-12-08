@@ -1,6 +1,6 @@
 
 
-const Landing = () => {
+const Landing = ({category}) => {
   return (
     <div>
        <img src="..." class="img-thumbnail" alt="..."></img>

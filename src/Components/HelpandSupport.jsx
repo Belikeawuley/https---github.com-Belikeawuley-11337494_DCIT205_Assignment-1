@@ -3,11 +3,11 @@
 const HelpandSupport = () => {
   return (
     <div>
-      <div classname="card">
-  <img src="..." classname="card-img-top" alt="..."></img>
+      <div classname="card bg-dark text-light mb-3 d-inline-block my-3 mx-3 px-2 py-2" style={{maxwidth:"345px"}}>
+  <img src={src} style={{height:"200px",width:"360px"}} classname="card-img-top" alt="..."></img>
 
   <div classname="card-body">
-    <h5 classname="card-title">FAQ</h5>
+    <h5 classname="card-title">{FAQ.slice(0,50)}</h5>
     <p classname="card-text">Get to know about your grades and solution to any technical problem.</p>
     <a href="#" classname="btn btn-primary">Visit</a>
   </div>
